@@ -48,6 +48,26 @@ public class CacheConfiguration {
             createCache(cm, com.pfa.emsi.domain.User.class.getName());
             createCache(cm, com.pfa.emsi.domain.Authority.class.getName());
             createCache(cm, com.pfa.emsi.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.pfa.emsi.domain.EspaceVert.class.getName());
+            createCache(cm, com.pfa.emsi.domain.EspaceVert.class.getName() + ".zones");
+            createCache(cm, com.pfa.emsi.domain.Zone.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Zone.class.getName() + ".arrosages");
+            createCache(cm, com.pfa.emsi.domain.Zone.class.getName() + ".plantations");
+            createCache(cm, com.pfa.emsi.domain.Zone.class.getName() + ".grandeurs");
+            createCache(cm, com.pfa.emsi.domain.TypeSol.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Plante.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Utilisateur.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Capteur.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Boitier.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Boitier.class.getName() + ".zones");
+            createCache(cm, com.pfa.emsi.domain.Boitier.class.getName() + ".connectes");
+            createCache(cm, com.pfa.emsi.domain.Grandeur.class.getName());
+            createCache(cm, com.pfa.emsi.domain.TypePlante.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Plantation.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Arrosage.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Connecte.class.getName());
+            createCache(cm, com.pfa.emsi.domain.Installation.class.getName());
+            createCache(cm, com.pfa.emsi.domain.ExtraUser.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -100,6 +100,7 @@
   },
   "defaultProject": "pfa",
   "cli": {
+    "analytics": "6e0c2758-200d-469d-bfe4-614cd9b4008e",
     "cache": {
       "enabled": true,
       "path": "./target/angular/",
